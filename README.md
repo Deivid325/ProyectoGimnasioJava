@@ -1,28 +1,11 @@
-# ProyectoGimnasioJava
-Repositorio base para actividad práctica con GitHub y Java
+# Descripción General de las Mejoras
+El programa original para gestionar un gimnasio ha sido mejorado mediante la introducción de nuevas funcionalidades y una mejor organización del código. Las principales mejoras incluyen:
 
-# Gimnasio en Java
-Este repositorio contiene una clase base para gestionar actividades en un gimnasio. Deben realizar un fork y mejorar el proyecto.
+⚪Clase Usuario: Se creó una clase dedicada para representar a los usuarios registrados en el gimnasio, permitiendo una mejor estructura y escalabilidad.
+⚪Listado de usuarios registrados: Se añadió un método mostrarUsuariosRegistrados en la clase Gimnasio que lista todos los usuarios inscritos junto con su información básica, como el nombre y la edad.
+⚪Registro con datos adicionales: Ahora los usuarios pueden registrarse indicando también su edad, lo que permite personalizar y gestionar mejor la información.
 
-## Instrucciones
-1. Realiza un fork de este repositorio.
-2. Añade tus mejoras al proyecto.Las mejoras a valorar son añadir nuevos métodos que aporte un extra a la clase principal.
-3. Crear un archivo `README.md` en tu repositorio forkeado. (ver el punto 5, en criterios de evaluación)
-## Criterios de Evaluación 
-1. Tu cuenta de GitHub: Tu perfil debe estar configurado
-2. Realizar correctamente el fork del repositorio.
-3. En cuanto a la tarea una vez realizado tu FORK:
-4. El código modificado debe incluir al menos una mejora en forma de nuevas clases o métodos.
-Los cambios deben estar claramente visibles en el repositorio forkeado.
-5. En tu FORK debes crear un fichero (README.md):
-El repositorio forkeado debe incluir un archivo README.md que tenga la siguiente estructura 
-Descripción general de las mejoras.
-Justificación de los cambios realizados.
-Instrucciones claras para entender y usar las nuevas funcionalidades.
-Uso de GitHub:
-Las modificaciones deben incluir al menos un commit por cada mejora realizada.
-El commit debe estar documentado con mensajes claros.
-## Entrega:
-En la entrega en la plataforma:  Pega el enlace para que me dirija directamente al FORK, (no les pedire que en el FORK añadan su nombre ya que el repositorio es publico y seguramente la mayoria tendrá un perfil
-con un Pseudonimo, por esta razón prefiero que en la entrega añadan el enclace y así evaluar.
-## Nota: No será necesario hacer pull request.
+# Justificación de los Cambios Realizados
+1️⃣Modularidad: La introducción de la clase Usuario separa las responsabilidades y mejora la claridad del código. Esto permite agregar nuevos atributos o funcionalidades relacionadas con los usuarios en el futuro sin afectar la clase Gimnasio.
+2️⃣Escalabilidad: El almacenamiento de usuarios en una lista (usuariosRegistrados) hace que el programa pueda gestionar múltiples usuarios de forma eficiente.
+3️⃣Funcionalidad Extendida: La posibilidad de mostrar los usuarios registrados y recopilar datos adicionales, como la edad, mejora la utilidad del programa al proporcionar información relevante para la administración del gimnasio.
